@@ -1,0 +1,98 @@
+@font-face {
+    font-family: fontdesign;
+    src: url("../font/UVNBaiSau_R.TTF");
+}
+*{
+    font-family: fontdesign;
+}
+body{
+    background-color:antiquewhite;
+}
+.container{
+    background-color:white;
+    float: flex;
+    flex-wrap: wrap;
+}
+/* main user */
+.boxcenter{
+    width: 69%;
+    float: left;
+}
+.text-main p{
+    font-size: 18px;
+}
+.boxleft{
+    width: 30%;
+    float: right;
+}
+/* Color hover */
+.animation, .text-animation{
+    transition: 1s;   
+}
+.animation:hover{
+    background: linear-gradient(#e66465, #9198e5);
+    transition: 1s;   
+}
+.animation:hover .text-animation{
+    color: white;
+    transition: 1s; 
+    font-size: 17px;
+}
+/* footter */
+body footer{
+    clear: both;
+    background: aliceblue;
+    min-height: 30px;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+}
+/* signup */
+.signup{
+    opacity: 0;
+    width: 0;
+    height: 0;
+    transition: 1s;
+}
+.animation-child{
+   color:forestgreen;
+   text-align: center;
+}
+.list-group-item .signup{
+    transition: 1s;
+}
+.list-group-item:hover .signup{
+    opacity: 1;
+    height: 300px;
+    width: 100%;
+    transition: 1s;
+}
+/* login */
+
+.animation-childs img{
+    color:forestgreen;
+    text-align: center;
+}
+.text-animations{
+    transition: 1s;
+}
+.animation:hover .text-animations{
+    color: white;
+    transition: 1s; 
+    font-size: 28px;
+}
+/* list */
+.list-group-item img{
+    width:40px;
+    height:40px;
+    border-radius:10px;
+    margin-right:10px;
+    transition: 1s;
+}
+.list-group-item:hover img{
+    width:45px;
+    height:45px;
+    transition: 1s;
+}
+/* info */
+
